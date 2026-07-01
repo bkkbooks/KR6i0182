@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0182/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0182/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說摩鄧女經
+  identifiers:
+    krp: KR6i0182
+    cbeta: T14n0551
+    cbeta_old_id: T14n0551
+    authorityid: CA0002267
+    json_key: T0551
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0551.xml
+    old_id: T14n0551
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0182_000-T.yaml, hash: 'sha256:82a695368029a44e9cd8d8c69287bc6c4ba44af0763ce223a1fe366d03a10b3b'}
+  - {seq: 1, filename: KR6i0182_001-T.yaml, hash: 'sha256:60a5b756a24300cc101d6a7aa1cd886b451b9e2eaa30d49732353668f02887c9'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0182_000-T.markers.yaml, hash: 'sha256:02233cc3b9511ad5ce87c1fb2c7b28103517182807f8cd6452c7e2b34caef31e'}
+  - {seq: 1, role: markers, filename: assets/KR6i0182_001-T.markers.yaml, hash: 'sha256:11ba0d8efc1d02555696895b19a70edff8c264b416840b80bc10772b820f421c'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0182_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1083
+  label: 佛說摩鄧女經
+  type: juan
+  level: 1
+hash: sha256:92a997a30660d8a9c1545a473be850309e555dd11568e6091eea683873e05344
