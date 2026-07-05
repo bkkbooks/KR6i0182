@@ -31,9 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0182_000.yaml, hash: 'sha256:82a695368029a44e9cd8d8c69287bc6c4ba44af0763ce223a1fe366d03a10b3b'}
-  - {seq: 1, filename: KR6i0182_001.yaml, hash: 'sha256:121ee4c03f832c595e1765f48025d245c6f61366c3c72b9c918e65280d41fddf'}
+  - {seq: 1, filename: KR6i0182_001.yaml, hash: 'sha256:60a5b756a24300cc101d6a7aa1cd886b451b9e2eaa30d49732353668f02887c9'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0182_001.markers.yaml, hash: 'sha256:71d7d736881e57bfcb2be59c9f9bdfdb869cd3f1fa1938b9eb01430b782d3c92'}
+  - {seq: 0, role: markers, filename: assets/KR6i0182_000.markers.yaml, hash: 'sha256:7dd3fd87d04fbd6d3159eeddbd1c637b130e288d056e07672dfea27c8076b74a'}
+  - {seq: 1, role: markers, filename: assets/KR6i0182_001.markers.yaml, hash: 'sha256:ad213907ec00f603b15361dfdc17f6b9a359967bd7384a297a00a49d063a98d4'}
 table_of_contents:
 - ref:
     seq: 1
@@ -45,7 +46,4 @@ table_of_contents:
   label: 佛說摩鄧女經
   type: juan
   level: 1
-hash: sha256:f97d984d9507e361c1a86216a016b96d634e7084ba1c6ffac95f722950400fc2
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:8755287ec9785c70e12b3038b899af72a1af256ae609ea0ccf5bcd6ff566ef16
